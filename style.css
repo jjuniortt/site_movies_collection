@@ -315,6 +315,7 @@ footer p{
     margin-bottom: 10px;
     display: inline-block;
     transition: .3s;
+    font-size: 1rem;
 }
 
 .quicklinks ul li a:hover{
