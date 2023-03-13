@@ -5,7 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Retro Gamers</title>
-    <!-- Box-icon -->
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -17,12 +16,14 @@
         </div>
     </header>
 
-    <section class="home" id="home">
-        <div class="home-text container">
-            <h2 class="home-title">Retro Movies</h2>
-            <span class="home-subtitle">Conteúdo sobre Filmes</span>
-        </div>
-    </section>
+    <div class="opa">
+        <section class="home" id="home">
+            <div class="home-text container">
+                <h2 class="home-title">Retro Movies</h2>
+                <span class="home-subtitle">Conteúdo sobre Filmes e Assuntos Relacionados</span>
+            </div>
+        </section>
+    </div>
 
     <div class="post-filter container">
         <span class="filter-item active-filter" data-filter="all">Todos</span>
@@ -32,8 +33,8 @@
     </div>
     
     <div class="post container">
-        <!-- Post 1 -->
-        <div class="post-box tech">
+        <!-- Post/Movie 1 -->
+        <div class="post-box">
             <img src="./images/o-predator.jpg" alt="" class="post-img">
             <h2 class="category">Ação</h2>
             <a href="#" class="post-title">Predator 2 (1990)</a>
@@ -44,8 +45,8 @@
                 <span class="profile-name">jonas_tofoli</span>
             </div>
         </div>
-        <!-- Post 2 -->
-        <div class="post-box food">
+        <!-- Post/Movie 2 -->
+        <div class="post-box">
             <img src="./images/maverick.jpg" alt="" class="post-img">
             <h2 class="category">Ação</h2>
             <a href="#" class="post-title">Top Gun: Maverick (2022)</a>
@@ -56,20 +57,20 @@
                 <span class="profile-name">jonas_tofoli</span>
             </div>
         </div>
-        <!-- Post 3 -->
-        <div class="post-box food">
-            <img src="./images/the-exorcist.jpg" alt="" class="post-img">
-            <h2 class="category">Terror</h2>
-            <a href="#" class="post-title">The Exorcist (1973)</a>
+        <!-- Post/Movie 3 -->
+        <div class="post-box">
+            <img src="./images/warcraft-backdrop.jpg" alt="" class="post-img">
+            <h2 class="category">Ação</h2>
+            <a href="#" class="post-title">Warcraft (2016)</a>
             <span class="post-date">11 Março de 2023</span>
-            <p class="post-description">Propositadamente cru e profano, O Exorcista ainda tem a extraordinária capacidade de perturbar os leitores e fazê-los esquecer que é "apenas uma história". Publicado aqui nesta bela edição de quadragésimo aniversário, continua a ser uma experiência de leitura inesquecível e continuará a chocar e assustar uma nova geração de leitores.</p>
+            <p class="post-description">A região de Azeroth sempre viveu em paz, até a chegada dos guerreiros Orc. Com a abertura de um portal, eles puderam chegar à nova Terra com a intenção de destruir o povo inimigo.</p>
             <div class="profile">
                 <img src="./images/pai-e-filho.jpg" alt="" class="profile-img">
                 <span class="profile-name">jonas_tofoli</span>
             </div>
         </div>
-        <!-- Post 4 -->
-        <div class="post-box news">
+        <!-- Post/Movie 4 -->
+        <div class="post-box">
             <img src="./images/iron-man.jpg" alt="" class="post-img">
             <h2 class="category">Ação</h2>
             <a href="#" class="post-title">Iron Man (2008)</a>
@@ -80,8 +81,8 @@
                 <span class="profile-name">jonas_tofoli</span>
             </div>
         </div>
-        <!-- Post 5 -->
-        <div class="post-box tech">
+        <!-- Post/Movie 5 -->
+        <div class="post-box">
             <img src="./images/rambo1.jpg" alt="" class="post-img">
             <h2 class="category">Ação</h2>
             <a href="#" class="post-title">Rambo: First Blood (1982)</a>
@@ -92,8 +93,8 @@
                 <span class="profile-name">jonas_tofoli</span>
             </div>
         </div>
-        <!-- Post 6 -->
-        <div class="post-box news">
+        <!-- Post/Movie 6 -->
+        <div class="post-box">
             <img src="./images/equilibrium.jpg" alt="" class="post-img">
             <h2 class="category">Ficção</h2>
             <a href="#" class="post-title">Equilibrium (2002)</a>
@@ -104,8 +105,8 @@
                 <span class="profile-name">jonas_tofoli</span>
             </div>
         </div>
-        <!-- Post 7 -->
-        <div class="post-box tech">
+        <!-- Post/Movie 7 -->
+        <div class="post-box">
             <img src="./images/dread.jpg" alt="" class="post-img">
             <h2 class="category">Ação</h2>
             <a href="#" class="post-title">Judge Dredd (1995)</a>
@@ -116,8 +117,8 @@
                 <span class="profile-name">jonas_tofoli</span>
             </div>
         </div>
-        <!-- Post 1 -->
-        <div class="post-box news">
+        <!-- Post/Movie 8 -->
+        <div class="post-box">
             <img src="./images/alien.jpg" alt="" class="post-img">
             <h2 class="category">Ficção</h2>
             <a href="#" class="post-title">Alien (1979)</a>
@@ -128,8 +129,8 @@
                 <span class="profile-name">jonas_tofoli</span>
             </div>
         </div>
-        <!-- Post 9 -->
-        <div class="post-box food">
+        <!-- Post/Movie 9 -->
+        <div class="post-box">
             <img src="./images/a-chave-mestra.png" alt="" class="post-img">
             <h2 class="category">Terror</h2>
             <a href="#" class="post-title">The Skeleton Key (2005)</a>
@@ -146,7 +147,8 @@
         <div class="footer-container">
             <div class="sec aboutus">
                 <h2>Retro Gamers</h2>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quisquam minus quo illo numquam vel incidunt pariatur hic commodi expedita tempora praesentium at iure fugiat ea, quam laborum aperiam veritatis.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ducimus quisquam minus quo illo numquam vel incidunt pariatur.</p><br>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed, doloribus voluptates.</p>
                 <ul class="sci">
                     <li><a href="#"><i class="bx bxl-facebook"></i></a></li>
                     <li><a href="#"><i class="bx bxl-instagram"></i></a></li>
